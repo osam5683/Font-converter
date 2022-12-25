@@ -1,0 +1,83 @@
+body{
+    background: #544a7d;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffd452, #544a7d);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffd452, #544a7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container{
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 75px;
+    background-color: black;
+    border-radius: 60px;
+}
+
+label{
+    color: aliceblue;
+    background-color:black;
+    font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+
+p{
+    margin-top: 40px;
+    /* background-color: black; */
+    border-radius: 60px;
+    padding-left: 0px;
+}
+
+#textinput{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+ 
+#fonts{
+    color: rgb(214, 224, 29);
+    background-color: black;
+    border-radius: 5px;
+    border-style: dotted;
+    box-shadow: #544a7d;
+}
+
+input{
+    color: #01d5ff;
+    background-color: black;
+}
+
+#newtext{
+    margin-bottom: 10px;
+}
+
+
+a{
+    
+    padding-top: 10px;
+    color: #462cae;
+    margin-top:10px ;
+}
+
+footer{
+    margin-right: 20px;
+    margin-top: 112px;
+    /* background-color: #544a7d; */
+    color:  black;
+    font-size: x-large;
+	position: relative;
+	border-radius: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
